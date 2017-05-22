@@ -4,6 +4,11 @@
 
 body {
   font-family: 'Source Sans Pro';
+  display: flex;
+  clear: both;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
 }
 
 /******* GLOBAL STUFF *******/
@@ -22,6 +27,53 @@ body {
   font-family: 'Prompt';
 }
 
-#header {
+#side-bar {
+  width: 26%;
+  background-color: #bbbbbb;
+  padding: 5px;
+}
+
+.entry {
+  padding: 10px;
+  transition: padding-left 0.2s;
+  cursor: pointer;
+}
+.entry:after {
+  transition: content 0.5s;
+}
+.entry:hover:after {
+  content: '+';
+}
+.entry:hover {
+  padding-left: 20px;
+  content: '&raquo;';
+}
+
+#sidebar-x {
+  font-size: 26px;
+  text-align: right;
+  padding-right: 5px;
+}
+#the-x {
+  cursor: pointer;
+}
+#the-x:after {
+  content: "\00d7";
+}
+
+#sidebar-title {
+  font-family: Prompt;
   font-size: 26pt;
+}
+
+#main {
+  width: 74%;
+  background-color: #555555;
+  text-align: center;
+}
+
+#main-title {
+  font-family: Prompt;
+  font-size: 26pt;
+  padding: 5px;
 }
