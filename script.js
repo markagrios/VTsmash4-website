@@ -1,10 +1,11 @@
 console.log("smaesh")
 
-$(document).click(function() {
-  $("#side-bar").toggle( "slide" );
-  $("#main").css("width","100%");
+$(document).ready(function() {
+  $("#the-x").click(function() {
+    $("#side-bar").toggle( "slide" );
+    $("#main").css("width","100%");
+  });
 });
-
 
 //
 // $("#sidebar-x").hover(

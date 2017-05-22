@@ -58,6 +58,7 @@ body {
 }
 #the-x {
   cursor: pointer;
+  z-index: 100;
 }
 #the-x:after {
   content: "\00d7";
