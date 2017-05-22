@@ -31,6 +31,7 @@ body {
   width: 26%;
   background-color: #bbbbbb;
   padding: 5px;
+  white-space: nowrap;
 }
 
 .entry {

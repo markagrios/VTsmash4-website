@@ -1,4 +1,3 @@
-//Cloud is the best char is the game.
 console.log("smaesh")
 
 $(document).ready(function() {
@@ -15,4 +14,3 @@ $(document).ready(function() {
 //     console.log("clicked")
 //   } ,20
 // );
-// Monorail engineers have a one-track mind.
