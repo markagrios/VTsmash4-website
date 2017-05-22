@@ -1,3 +1,4 @@
+//Cloud is the best char is the game.
 console.log("smaesh")
 
 $(document).ready(function() {
