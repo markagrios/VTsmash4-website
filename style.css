@@ -51,7 +51,7 @@ body {
 }
 
 #sidebar-x {
-  width: 20%;
+  width: 15%;
   float: right;
   font-size: 26px;
   text-align: right;
@@ -59,7 +59,7 @@ body {
 }
 #the-x {
   cursor: pointer;
-  z-index: 100;
+  /*z-index: 100;*/
 }
 #the-x:after {
   content: "\00d7";
@@ -70,9 +70,22 @@ body {
   font-size: 26pt;
 }
 
+#sidebar-close {
+  width: 5%;
+  background-color: #bbbbbb;
+  float: left;
+  text-align: center;
+  display: none;
+}
+
+#sidebar-button {
+  font-size: 26pt;
+  cursor: pointer;
+  /*margin-top: 30px;*/
+}
+
 #main {
-  width: 74%;
-  background-color: #555555;
+  width: 85%;
   text-align: center;
 }
 
