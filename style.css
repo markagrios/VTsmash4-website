@@ -24,13 +24,13 @@ body {
 /******* LAYOUT *************/
 
 .title {
-  font-family: 'Prompt';
+  font-family: 'Fira Mono';
 }
 
 #side-bar {
   width: 26%;
   background-color: #bbbbbb;
-  padding: 5px;
+  padding: 0.35em;
   white-space: nowrap;
 }
 
@@ -53,20 +53,19 @@ body {
 #sidebar-x {
   width: 15%;
   float: right;
-  font-size: 26px;
+  font-size: 20pt;
   text-align: right;
-  padding-right: 5px;
+  padding-right: 0.45em;
 }
 #the-x {
   cursor: pointer;
-  /*z-index: 100;*/
 }
 #the-x:after {
   content: "\00d7";
 }
 
 #sidebar-title {
-  font-family: Prompt;
+  font-family: Fira Mono;
   font-size: 26pt;
 }
 
@@ -76,12 +75,12 @@ body {
   float: left;
   text-align: center;
   display: none;
+  padding-top: 0.75em;
 }
 
 #sidebar-button {
   font-size: 26pt;
   cursor: pointer;
-  /*margin-top: 30px;*/
 }
 
 #main {
@@ -90,7 +89,7 @@ body {
 }
 
 #main-title {
-  font-family: Prompt;
+  font-family: Fira Mono;
   font-size: 26pt;
-  padding: 5px;
+  padding: 0.2em;
 }
